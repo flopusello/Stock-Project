@@ -1,12 +1,8 @@
-# Environment
 .env
-.venv/
-setup.py
 docker-compose.yml
-dashboard/
 project_structure.txt
-
-# Cache
+setup.py
+.venv/
 __pycache__/
 *.py[cod]
 *$py.class
