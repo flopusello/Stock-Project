@@ -1,0 +1,18 @@
+Stock KPI's Definition
+
+Momentum Indicators : 
+ RSI : Relative Strenght Index (14 days period) = 100 - (100 / (1 + (Average Gain / Average Loss)))
+ SMA : Simple Moving Average N days = Average Closing Price on N days
+ Multiplier for EMA with N days = 2/(N+1)
+ EMA : Exponential Moving Average on N days = (Close Today x Multiplier) + (EMA N-1 * (1 - Multiplier))
+ MACD : Moving Average Convergence Divergence = EMA(12) - EMA(26)
+
+Volatility Indicators :
+ ATR : Average True Range = Max(High - Low, |High - Previous Close|, |Low - Previous Close|)
+ Bollinger Lower Band = SMA(20) - 2 * StdDev
+ Bollinger Upper Band = SMA(20) + 2 * StdDev
+
+Volume Indicators :
+ VWAP : Volume-Weighted Average Price = Sum(Price * Volume) / Sum(Volume)
+ Volume Spike 20 days period = Current Volume / Average Volume last 20 days
+ OBV : On-Balance Volume = If price goes up then Previous OBV + Volume AND If Price goes down then OBV - Volume

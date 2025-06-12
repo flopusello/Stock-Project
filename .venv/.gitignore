@@ -1,4 +1,12 @@
-# Ignore Environment Variables
+# Environment
 .env
+.venv/
+setup.py
+docker-compose.yml
+dashboard/
+project_structure.txt
+
+# Cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
