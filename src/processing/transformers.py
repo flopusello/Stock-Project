@@ -32,11 +32,17 @@ def data_prep(symbol):
 
     df["MACD(12, 26)"] = df["EMA(12)"] - df["EMA(26)"]
 
+    df["Signal Line(9)"] = df["MACD(12, 26)"].ewm(span=9, adjust=False).mean()
+
     # Volatility Indicators
 
-    df["ATR(14)"] = (
-        df["high"].rolling(window=14).max() - df["low"].rolling(window=14).min()
-    ) / 14
+    df["prev_close"] = df["close"].shift(1)
+    df["tr1"] = df["high"] - df["low"]
+    df["tr2"] = (df["high"] - df["prev_close"]).abs()
+    df["tr3"] = (df["low"] - df["prev_close"]).abs()
+    df["true_range"] = df[["tr1", "tr2", "tr3"]].max(axis=1)
+    df["ATR(14)"] = df["true_range"].rolling(window=14).mean()
+    df.drop(columns=["prev_close", "tr1", "tr2", "tr3", "true_range"], inplace=True)
 
     df["BB_upper(20, 2)"] = df["close"].rolling(window=20).mean() + (
         df["close"].rolling(window=20).std() * 2
@@ -57,6 +63,8 @@ def data_prep(symbol):
     df["Volume Spike(20)"] = (
         df["volume"] > df["volume"].rolling(window=20).mean() * 1.5
     ).astype(int)
+
+    # Save Processed Data
 
     save_json_to_processed(
         df.to_dict(orient="records"),

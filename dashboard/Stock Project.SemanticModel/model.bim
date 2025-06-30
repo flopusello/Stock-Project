@@ -1,0 +1,5747 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.135.7627.0 (24.08)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"stock_ts\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "custom_measure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "custom measure": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "measure": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "custom degree": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "custom quantity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "custom quota": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "custom extent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "degree": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "quota": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "extent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "custom amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "custom portion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "custom ration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "custom_measure.above_macd_signal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "above_macd_signal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "above macd signal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "above_macd_signal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "above macd indication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "above macd pointer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "above macd sign": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "above macd gesture": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "above macd indicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "above macd motion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "above macd hint": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "Bullish Sentiment": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "custom_measure.below_macd_signal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "below_macd_signal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "below macd signal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "below_macd_signal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "below macd indication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "below macd pointer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "below macd sign": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "below macd gesture": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "below macd indicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "below macd motion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "below macd hint": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "Bearish Sentiment": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "custom_measure.column": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "Column"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pilaster": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pillar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "post": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "support": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stake": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pole": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "buttress": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "underpinning": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "contribution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "custom_measure.ema12_last_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "ema(12)_last_date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ema(12)_last_date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "EMA(12)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "custom_measure.ema26_last_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "ema(26)_last_date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ema(26)_last_date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "EMA(26)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "custom_measure.macd1226_last_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "macd(12,26)_last_date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "macd(12,26)_last_date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MACD(12,26)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "custom_measure.macd_signal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "macd_signal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "macd signal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "macd_signal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "macd indication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "macd pointer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "macd sign": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "macd gesture": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "macd indicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "macd motion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "macd hint": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "custom_measure.min_macd_signal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "min_macd_signal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "min macd signal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "min_macd_signal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "minimum macd signal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "min macd indication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "min macd pointer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "min macd sign": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "min macd gesture": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "min macd indicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "min macd motion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "min macd hint": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "custom_measure.rsi_last_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "rsi(14)_last_date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rsi(14)_last_date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "RSI(14)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "custom_measure.rsi_signal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "rsi_signal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rsi signal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "rsi_signal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "signal": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "rsi indication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "rsi pointer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "indication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pointer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "rsi sign": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "rsi gesture": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "rsi indicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "rsi motion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "rsi hint": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "sign": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "custom_measure.signal9_last_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "signal(9)_last_date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "signal(9)_last_date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Signal(9)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "rolling_date_calendar": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Rolling Date Calendar"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rolling date calendar": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "calendar": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "date calendar": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "rolling moment calendar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "moment calendar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "rolling period calendar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "period calendar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "rolling date almanac": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "rolling date datebook": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "rolling date agenda": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "rolling date logbook": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "rolling date diary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "date almanac": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  }
+                ]
+              },
+              "rolling_date_calendar.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Rolling Date Calendar",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "rolling_date_calendar.date.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Rolling Date Calendar",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "rolling_date_calendar.date.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Rolling Date Calendar",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "rolling_date_calendar.date.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Rolling Date Calendar",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "moment month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "rolling_date_calendar.date.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Rolling Date Calendar",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  },
+                  {
+                    "moment quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "rolling_date_calendar.date.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Rolling Date Calendar",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "moment year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "rolling_date_calendar.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Rolling Date Calendar",
+                    "ConceptualProperty": "Day"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "rolling_date_calendar.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Rolling Date Calendar",
+                    "ConceptualProperty": "Month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "rolling_date_calendar.week_day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Rolling Date Calendar",
+                    "ConceptualProperty": "Week Day"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "week day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "rolling_date_calendar.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Rolling Date Calendar",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "stock_ts": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "stock ts": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "stock_ts": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "inventory ts": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "stock_ts.BB_lower20_2": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "BB_lower(20, 2)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "BB_lower(20, 2)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "BB_lower": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.BB_upper20_2": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "BB_upper(20, 2)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "BB_upper(20, 2)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "BB_upper": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.atr14": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "ATR(14)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "atr(14)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "atr": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.avg_gain14": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "avg_gain(14)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "avg_gain(14)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "avg_gain": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.avg_loss14": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "avg_loss(14)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "avg_loss(14)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "avg_loss": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.close": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "close"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "close": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "local": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "neighboring": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "intimate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "familiar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "dear": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "loving": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "friendly": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "warm": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "stock_ts.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "stock_ts.ema12": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "EMA(12)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ema(12)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ema": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.ema20": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "EMA(20)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ema(20)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ema": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.ema26": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "EMA(26)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ema(26)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ema": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.ema9": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "EMA(9)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ema(9)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ema": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.gain": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "gain"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "gain": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "improvement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "expansion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "addition": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "achievement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "advance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "increase": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "advantage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "payback": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "profit": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "reward": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "stock_ts.high": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "high"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "high": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "great": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "extreme": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "stock_ts.loss": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "loss"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "loss": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "injury": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "forfeiture": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "damage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "harm": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "hurt": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "failure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "defeat": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "beating": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "thrashing": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "stock_ts.low": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "low"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "low": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "little": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "squat": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "low-slung": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "short": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "small": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "soothing": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "quiet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "gentle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "faint": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "stock_ts.macd12_26": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "MACD(12, 26)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "macd(12, 26)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "macd": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.obv": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "OBV"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "obv": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "stock_ts.open": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "open"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "open": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sweeping": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "stock_ts.rs14": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "rs(14)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rs(14)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "rs": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.rsi14": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "RSI(14)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rsi(14)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "rsi": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.signal_line9": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "Signal Line(9)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "signal line(9)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "signal line": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.sma14": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "SMA(14)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sma(14)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sma": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.sma20": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "SMA(20)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sma(20)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sma": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.sma50": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "SMA(50)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sma(50)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sma": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.sma9": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "SMA(9)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sma(9)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sma": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.symbol": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "symbol"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "symbol": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "representation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "icon": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pictogram": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "sign": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "character": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "mark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "emblem": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "indication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "logo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "stock_ts.v_id_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_ identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "_ identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "_ identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "_ id": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "_ credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "stock_ts.volume": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "volume"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "volume": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "capacity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "size": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "bulk": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "tome": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "book": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "work": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "stock_ts.volume_spike20": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "Volume Spike(20)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "volume spike(20)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "volume spike": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "stock_ts.vwap14": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "stock_ts",
+                    "ConceptualProperty": "VWAP(14)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "vwap(14)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "vwap": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "custom_measure_has_above_macd_signal": {
+                "Binding": {
+                  "ConceptualEntity": "Custom Measures"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.above_macd_signal"
+                      },
+                      "Subject": {
+                        "Role": "custom_measure"
+                      }
+                    },
+                    "ID": "custom_measures_have_above_macd_signal",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure": {
+                    "Target": {
+                      "Entity": "custom_measure"
+                    }
+                  },
+                  "custom_measure.above_macd_signal": {
+                    "Target": {
+                      "Entity": "custom_measure.above_macd_signal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "custom_measure_has_below_macd_signal": {
+                "Binding": {
+                  "ConceptualEntity": "Custom Measures"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.below_macd_signal"
+                      },
+                      "Subject": {
+                        "Role": "custom_measure"
+                      }
+                    },
+                    "ID": "custom_measures_have_below_macd_signal",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure": {
+                    "Target": {
+                      "Entity": "custom_measure"
+                    }
+                  },
+                  "custom_measure.below_macd_signal": {
+                    "Target": {
+                      "Entity": "custom_measure.below_macd_signal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "custom_measure_has_macd_signal": {
+                "Binding": {
+                  "ConceptualEntity": "Custom Measures"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.macd_signal"
+                      },
+                      "Subject": {
+                        "Role": "custom_measure"
+                      }
+                    },
+                    "ID": "custom_measures_have_macd_signal",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure": {
+                    "Target": {
+                      "Entity": "custom_measure"
+                    }
+                  },
+                  "custom_measure.macd_signal": {
+                    "Target": {
+                      "Entity": "custom_measure.macd_signal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "custom_measure_has_rsi_signal": {
+                "Binding": {
+                  "ConceptualEntity": "Custom Measures"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.rsi_signal"
+                      },
+                      "Subject": {
+                        "Role": "custom_measure"
+                      }
+                    },
+                    "ID": "custom_measures_have_rsi_signal",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure": {
+                    "Target": {
+                      "Entity": "custom_measure"
+                    }
+                  },
+                  "custom_measure.rsi_signal": {
+                    "Target": {
+                      "Entity": "custom_measure.rsi_signal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rolling_date_calendar_date_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "Rolling Date Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rolling_date_calendar.date.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "rolling_date_calendar.date"
+                      }
+                    },
+                    "ID": "dates_have_date_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rolling_date_calendar.date": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.date"
+                    }
+                  },
+                  "rolling_date_calendar.date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.date.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rolling_date_calendar_date_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "Rolling Date Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rolling_date_calendar.date.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "rolling_date_calendar.date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "date_hierarchies_have_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rolling_date_calendar.date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.date.variation.date_hierarchy"
+                    }
+                  },
+                  "rolling_date_calendar.date.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.date.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rolling_date_calendar_date_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Rolling Date Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rolling_date_calendar.date.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "rolling_date_calendar.date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "date_hierarchies_have_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rolling_date_calendar.date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.date.variation.date_hierarchy"
+                    }
+                  },
+                  "rolling_date_calendar.date.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.date.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rolling_date_calendar_date_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Rolling Date Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rolling_date_calendar.date.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "rolling_date_calendar.date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "date_hierarchies_have_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rolling_date_calendar.date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.date.variation.date_hierarchy"
+                    }
+                  },
+                  "rolling_date_calendar.date.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.date.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rolling_date_calendar_date_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Rolling Date Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rolling_date_calendar.date.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "rolling_date_calendar.date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "date_hierarchies_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rolling_date_calendar.date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.date.variation.date_hierarchy"
+                    }
+                  },
+                  "rolling_date_calendar.date.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.date.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rolling_date_calendar_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "Rolling Date Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rolling_date_calendar.date"
+                      },
+                      "Subject": {
+                        "Role": "rolling_date_calendar"
+                      }
+                    },
+                    "ID": "rolling_date_calendars_have_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rolling_date_calendar": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar"
+                    }
+                  },
+                  "rolling_date_calendar.date": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rolling_date_calendar_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "Rolling Date Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rolling_date_calendar.day"
+                      },
+                      "Subject": {
+                        "Role": "rolling_date_calendar"
+                      }
+                    },
+                    "ID": "rolling_date_calendars_have_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rolling_date_calendar": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar"
+                    }
+                  },
+                  "rolling_date_calendar.day": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rolling_date_calendar_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Rolling Date Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rolling_date_calendar.month"
+                      },
+                      "Subject": {
+                        "Role": "rolling_date_calendar"
+                      }
+                    },
+                    "ID": "rolling_date_calendars_have_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rolling_date_calendar": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar"
+                    }
+                  },
+                  "rolling_date_calendar.month": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rolling_date_calendar_has_week_day": {
+                "Binding": {
+                  "ConceptualEntity": "Rolling Date Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rolling_date_calendar.week_day"
+                      },
+                      "Subject": {
+                        "Role": "rolling_date_calendar"
+                      }
+                    },
+                    "ID": "rolling_date_calendars_have_week_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rolling_date_calendar": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar"
+                    }
+                  },
+                  "rolling_date_calendar.week_day": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.week_day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "rolling_date_calendar_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Rolling Date Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rolling_date_calendar.year"
+                      },
+                      "Subject": {
+                        "Role": "rolling_date_calendar"
+                      }
+                    },
+                    "ID": "rolling_date_calendars_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rolling_date_calendar": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar"
+                    }
+                  },
+                  "rolling_date_calendar.year": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_BB_lower20_2": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.BB_lower20_2"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_BB_lower20_2",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.BB_lower20_2": {
+                    "Target": {
+                      "Entity": "stock_ts.BB_lower20_2"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_BB_upper20_2": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.BB_upper20_2"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_BB_upper20_2",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.BB_upper20_2": {
+                    "Target": {
+                      "Entity": "stock_ts.BB_upper20_2"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_atr14": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.atr14"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_atr14",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.atr14": {
+                    "Target": {
+                      "Entity": "stock_ts.atr14"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_avg_gain14": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.avg_gain14"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_avg_gain14",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.avg_gain14": {
+                    "Target": {
+                      "Entity": "stock_ts.avg_gain14"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_avg_loss14": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.avg_loss14"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_avg_loss14",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.avg_loss14": {
+                    "Target": {
+                      "Entity": "stock_ts.avg_loss14"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_close": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.close"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_closes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.close": {
+                    "Target": {
+                      "Entity": "stock_ts.close"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_custom_measure_ema12_last_date": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.ema12_last_date"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_ema12_last_date",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure.ema12_last_date": {
+                    "Target": {
+                      "Entity": "custom_measure.ema12_last_date"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_custom_measure_ema26_last_date": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.ema26_last_date"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_ema26_last_date",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure.ema26_last_date": {
+                    "Target": {
+                      "Entity": "custom_measure.ema26_last_date"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_custom_measure_macd1226_last_date": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.macd1226_last_date"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_macd1226_last_date",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure.macd1226_last_date": {
+                    "Target": {
+                      "Entity": "custom_measure.macd1226_last_date"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_custom_measure_min_macd_signal": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.min_macd_signal"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_min_macd_signal",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure.min_macd_signal": {
+                    "Target": {
+                      "Entity": "custom_measure.min_macd_signal"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_custom_measure_rsi_last_date": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.rsi_last_date"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_rsi14_last_date",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure.rsi_last_date": {
+                    "Target": {
+                      "Entity": "custom_measure.rsi_last_date"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_custom_measure_signal9_last_date": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.signal9_last_date"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_signal9_last_date",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure.signal9_last_date": {
+                    "Target": {
+                      "Entity": "custom_measure.signal9_last_date"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.date"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.date": {
+                    "Target": {
+                      "Entity": "stock_ts.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_ema12": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.ema12"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_ema12",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.ema12": {
+                    "Target": {
+                      "Entity": "stock_ts.ema12"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_ema20": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.ema20"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_ema20",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.ema20": {
+                    "Target": {
+                      "Entity": "stock_ts.ema20"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_ema26": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.ema26"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_ema26",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.ema26": {
+                    "Target": {
+                      "Entity": "stock_ts.ema26"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_ema9": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.ema9"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_ema9",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.ema9": {
+                    "Target": {
+                      "Entity": "stock_ts.ema9"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_gain": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.gain"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_gains",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.gain": {
+                    "Target": {
+                      "Entity": "stock_ts.gain"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_high": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.high"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_highs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.high": {
+                    "Target": {
+                      "Entity": "stock_ts.high"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_loss": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.loss"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_losses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.loss": {
+                    "Target": {
+                      "Entity": "stock_ts.loss"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_low": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.low"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_lows",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.low": {
+                    "Target": {
+                      "Entity": "stock_ts.low"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_macd12_26": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.macd12_26"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_macd12_26",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.macd12_26": {
+                    "Target": {
+                      "Entity": "stock_ts.macd12_26"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_obv": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.obv"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_obvs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.obv": {
+                    "Target": {
+                      "Entity": "stock_ts.obv"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_open": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.open"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_opens",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.open": {
+                    "Target": {
+                      "Entity": "stock_ts.open"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_rolling_date_calendar": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "rolling_date_calendar"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_rolling_date_calendars",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts"
+                      },
+                      "Subject": {
+                        "Role": "rolling_date_calendar"
+                      }
+                    },
+                    "ID": "rolling_date_calendars_have_stock_tses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "rolling_date_calendar": {
+                    "Target": {
+                      "Entity": "rolling_date_calendar"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_rs14": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.rs14"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_rs14",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.rs14": {
+                    "Target": {
+                      "Entity": "stock_ts.rs14"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_rsi14": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.rsi14"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_rsi14",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.rsi14": {
+                    "Target": {
+                      "Entity": "stock_ts.rsi14"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_signal_line9": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.signal_line9"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_signal_line9",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.signal_line9": {
+                    "Target": {
+                      "Entity": "stock_ts.signal_line9"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_sma14": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.sma14"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_sma14",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.sma14": {
+                    "Target": {
+                      "Entity": "stock_ts.sma14"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_sma20": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.sma20"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_sma20",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.sma20": {
+                    "Target": {
+                      "Entity": "stock_ts.sma20"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_sma50": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.sma50"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_sma50",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.sma50": {
+                    "Target": {
+                      "Entity": "stock_ts.sma50"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_sma9": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.sma9"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_sma9",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.sma9": {
+                    "Target": {
+                      "Entity": "stock_ts.sma9"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_symbol": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.symbol"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_symbols",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.symbol": {
+                    "Target": {
+                      "Entity": "stock_ts.symbol"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_v_id_id": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.v_id_id"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have__ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.v_id_id": {
+                    "Target": {
+                      "Entity": "stock_ts.v_id_id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_volume": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.volume"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_volumes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.volume": {
+                    "Target": {
+                      "Entity": "stock_ts.volume"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_volume_spike20": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.volume_spike20"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_volume_spike20",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.volume_spike20": {
+                    "Target": {
+                      "Entity": "stock_ts.volume_spike20"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_vwap14": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "stock_ts.vwap14"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_vwap14",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  },
+                  "stock_ts.vwap14": {
+                    "Target": {
+                      "Entity": "stock_ts.vwap14"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "4094498c-44a4-435f-9f8b-ed3d6fa8c56e",
+        "fromColumn": "Date",
+        "fromTable": "Rolling Date Calendar",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_c4b11e85-e510-4754-9eb4-25b376430ce5"
+      },
+      {
+        "name": "77f043db-e421-0739-c14e-473e37b956b7",
+        "fromColumn": "date",
+        "fromTable": "stock_ts",
+        "toColumn": "Date",
+        "toTable": "Rolling Date Calendar"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "stock_ts",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4c57e22c-f286-4f5b-90bd-612844981452",
+            "sourceColumn": "_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "symbol",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4cbc5b33-7d7a-48e8-89fa-862d8d22fd94",
+            "sourceColumn": "symbol",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "f4a2fdb0-73d4-4830-97de-cb762a102497",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "open",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "58a3a8d3-a341-4edd-9818-96d6e72bedd3",
+            "sourceColumn": "open",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "high",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b391e3fd-fb63-4256-89e4-f5db830ac5df",
+            "sourceColumn": "high",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "low",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "bbd16f63-f406-4760-866f-1f1d435492c7",
+            "sourceColumn": "low",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "close",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "7ebfff7a-d82c-4108-9221-dec96c089efd",
+            "sourceColumn": "close",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "volume",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a4ed2888-bbd2-4a4b-98a6-4ed1eeb45cb0",
+            "sourceColumn": "volume",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "SMA(9)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "ae09933e-f247-418d-b386-b1ced9f894b6",
+            "sourceColumn": "SMA(9)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "SMA(14)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "2d72ab1e-c21c-40b5-9f26-99e3d9548021",
+            "sourceColumn": "SMA(14)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "SMA(20)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "918e6440-3881-447c-ba36-24fcfd35332b",
+            "sourceColumn": "SMA(20)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "SMA(50)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "42b8b963-0fbd-46e1-8e75-10278546a6c0",
+            "sourceColumn": "SMA(50)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "EMA(9)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "bb8c1abd-7a1a-40aa-9226-ea105f65f10e",
+            "sourceColumn": "EMA(9)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "EMA(12)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "724336f9-f89f-42c7-9caf-2dba22b24525",
+            "sourceColumn": "EMA(12)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "EMA(20)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b34887a1-cd2e-46d2-a855-607dcb39a4bf",
+            "sourceColumn": "EMA(20)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "EMA(26)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "3952f24e-3cf1-4ec6-a1f4-3d4248ef4043",
+            "sourceColumn": "EMA(26)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "gain",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "2a676dd0-818c-4faa-abb6-8926b22e5b3d",
+            "sourceColumn": "gain",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "loss",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "7801c922-2b1b-4c0a-8b6f-8bcd282178c3",
+            "sourceColumn": "loss",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "avg_gain(14)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "16ccf8bd-dde1-4dea-9993-da6337ab87a7",
+            "sourceColumn": "avg_gain(14)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "avg_loss(14)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "cef098d3-580f-4a0e-8eef-82281248c04d",
+            "sourceColumn": "avg_loss(14)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "rs(14)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "8ed52261-24b1-4b25-8287-3ba9b7ec0ed8",
+            "sourceColumn": "rs(14)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RSI(14)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "4a1f2e43-9042-4e64-8e1b-303e3bc5c5f1",
+            "sourceColumn": "RSI(14)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MACD(12, 26)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "9ddbc8cd-0f24-422a-88ee-dc88e099987a",
+            "sourceColumn": "MACD(12, 26)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ATR(14)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "19265336-18bf-4920-81ca-f82811c0ded9",
+            "sourceColumn": "ATR(14)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "BB_upper(20, 2)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c7c12899-88b4-4b02-84a4-9ac606f8813e",
+            "sourceColumn": "BB_upper(20, 2)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "BB_lower(20, 2)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b734ddda-349b-4976-b27c-c90a56375aa3",
+            "sourceColumn": "BB_lower(20, 2)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "VWAP(14)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "e6113416-49e4-44a9-a1d9-442d6d249d3f",
+            "sourceColumn": "VWAP(14)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "OBV",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "5fad9102-f311-4e61-a6db-97c6e0ab068a",
+            "sourceColumn": "OBV",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Volume Spike(20)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "92272126-ff61-46e8-b293-7a254475bc74",
+            "sourceColumn": "Volume Spike(20)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Signal Line(9)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "d168582f-0771-438a-9b30-707618db0f0c",
+            "sourceColumn": "Signal Line(9)",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "f480303b-10d5-4a52-8e1b-814f242c24f3",
+        "partitions": [
+          {
+            "name": "stock_ts",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Odbc.DataSource(\"dsn=CData MongoDB Sys\", [HierarchicalNavigation=true]),",
+                "    CData_Database = Source{[Name=\"CData\",Kind=\"Database\"]}[Data],",
+                "    stock_app_Schema = CData_Database{[Name=\"stock_app\",Kind=\"Schema\"]}[Data],",
+                "    stock_ts_Table = stock_app_Schema{[Name=\"stock_ts\",Kind=\"Table\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(stock_ts_Table,{{\"date\", type date}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_229afa45-147d-450c-8ff9-dd4765d0e865",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "f13df610-4ccc-4032-95d0-1e098089f59d",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "e3cc63b8-7d33-4355-8745-cb86a6e6611d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "71d33a10-b778-473f-9035-e9a98dbce36d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "361c44d4-c34e-40ce-938e-2c29236510c3",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "055835e6-f693-4e9d-a011-6e41b7b9f2a0",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "19c26787-a61e-46bd-91bd-17af2ced1bc2",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "95e86d57-fc81-4b4d-94e5-9951f38e67ec",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "a27156de-4191-4cf7-82d2-f66c7b7acd11",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "5588f8eb-9455-4b8e-8b03-8b556ef66c44",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "8c875404-4daa-4af2-8d29-52637ad7ac58",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "0e7bb06f-36ae-44d3-8b31-4c7264bfdc8d",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "5fc604f8-f4eb-4cb4-ab80-6e724dbb46ce"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "122aab19-cce4-4235-adc1-d8844eeab185",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_229afa45-147d-450c-8ff9-dd4765d0e865",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Rolling Date Calendar",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "50a77edf16af4dd8b7f9fbdbfafccade"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "f2547068-279e-44e8-a2d6-debf50c20861",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_c4b11e85-e510-4754-9eb4-25b376430ce5"
+                },
+                "isDefault": true,
+                "relationship": "4094498c-44a4-435f-9f8b-ed3d6fa8c56e"
+              }
+            ]
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "84d5d7d7-378e-4409-9167-9e8b70367280",
+            "sourceColumn": "[Day]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "6ee0d9c0-82c1-41a7-bbc1-c03532888f87",
+            "sourceColumn": "[Month]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "92e3e062-0f57-4f0a-8b3c-52b50c3c1ab0",
+            "sourceColumn": "[Year]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Week Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "88d7284b-b231-4cc3-b77d-399302db17a2",
+            "sourceColumn": "[Week Day]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "314a480d-2d4f-4dba-8159-bfae8d03cd26",
+        "partitions": [
+          {
+            "name": "Rolling Date Calendar",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                " ",
+                " var _max = LASTDATE(stock_ts[date])",
+                " var _min = _max - 29",
+                "",
+                " RETURN ",
+                " ADDCOLUMNS(",
+                "    CALENDAR(_min, _max),",
+                "    \"Day\", DAY([Date]),",
+                "    \"Month\", MONTH([Date]),",
+                "    \"Year\", YEAR([Date]),",
+                "    \"Week Day\", FORMAT([Date], \"dddd\")",
+                ")"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Custom Measures",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "53bb5fea534d499b92557396e15100b7"
+          },
+          {
+            "name": "436ba87b-9c83-4389-a31b-ebd06a36be98",
+            "value": "{\"Expression\":\"\"}"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Column",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "3da71a6b-9221-4558-8c70-0247ed8f65a8",
+            "sourceColumn": "[Column]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "a57b5702-9e33-42e1-bff9-e6980a78393a",
+        "measures": [
+          {
+            "name": "rsi(14)_last_date",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "    MIN(stock_ts[RSI(14)]),",
+              "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")"
+            ],
+            "lineageTag": "6f0546e2-6180-49c1-9c50-cdc8e3db8e55"
+          },
+          {
+            "name": "ema(12)_last_date",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "    MIN(stock_ts[EMA(12)]),",
+              "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")"
+            ],
+            "lineageTag": "5eab5e11-d300-4183-85ca-0990a5bd089b"
+          },
+          {
+            "name": "ema(26)_last_date",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "    MIN(stock_ts[EMA(26)]),",
+              "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")"
+            ],
+            "lineageTag": "02b375ea-e1fa-440e-8ea0-c98a2a194411"
+          },
+          {
+            "name": "macd(12,26)_last_date",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "    MIN(stock_ts[MACD(12, 26)]),",
+              "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")"
+            ],
+            "lineageTag": "aabc2d25-16e4-4a3b-bdc7-0247b0476221"
+          },
+          {
+            "name": "signal(9)_last_date",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "    MIN(stock_ts[Signal Line(9)]),",
+              "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")"
+            ],
+            "lineageTag": "db79529c-3b44-4952-ad13-3856cf070ff6"
+          },
+          {
+            "name": "macd_signal",
+            "expression": [
+              "",
+              "SWITCH(",
+              "    TRUE(),",
+              "    [macd(12,26)_last_date] > [signal(9)_last_date],",
+              "    \"Buy Signal\",",
+              "    [macd(12,26)_last_date] < [signal(9)_last_date],",
+              "    \"Sell Signal\",",
+              "    BLANK()",
+              ")"
+            ],
+            "lineageTag": "44ce4218-e883-46f6-ad85-db015babe1f9"
+          },
+          {
+            "name": "rsi_signal",
+            "expression": [
+              "",
+              "SWITCH(",
+              "    TRUE(),",
+              "    [rsi(14)_last_date] > 70,",
+              "    \"Sell Signal\",",
+              "    [rsi(14)_last_date] < 30,",
+              "    \"Buy Signal\",",
+              "    BLANK()",
+              ")"
+            ],
+            "lineageTag": "4a5dc766-fcf5-4442-9d5f-cfcf3a057f42"
+          },
+          {
+            "name": "above_macd_signal",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "VAR diff = [macd(12,26)_last_date] - [signal(9)_last_date]",
+              "RETURN IF(diff > 0, diff, 0)"
+            ],
+            "lineageTag": "829f1039-3446-47f4-b386-f4e2522e38b8"
+          },
+          {
+            "name": "below_macd_signal",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "VAR diff = [signal(9)_last_date] - [macd(12,26)_last_date]",
+              "RETURN IF(diff > 0, diff, 0)"
+            ],
+            "lineageTag": "703cce1b-11b4-4b34-ad92-22a7843cff55"
+          },
+          {
+            "name": "min_macd_signal",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "MIN([macd(12,26)_last_date], [signal(9)_last_date])",
+            "lineageTag": "122ad0dc-2706-4dca-83a0-bdf3c2e874bc"
+          },
+          {
+            "name": "normalized_atr_last_date",
+            "expression": [
+              "CALCULATE(",
+              "    MIN(stock_ts[ATR(14)]) / MIN(stock_ts[close]),",
+              "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "b6253a96-dab9-4a97-8b22-231a6b04d29b"
+          },
+          {
+            "name": "obv_last_date",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "    MIN(stock_ts[OBV]),",
+              "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")"
+            ],
+            "lineageTag": "ca1a22c5-af64-4d0d-990d-0df3fcc9ae3d"
+          },
+          {
+            "name": "obv_d-1",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(",
+              "    MIN(stock_ts[OBV]),",
+              "    'Rolling Date Calendar'[Date] = MAX('Rolling Date Calendar'[Date]) - 1",
+              ")"
+            ],
+            "lineageTag": "72c00bec-0490-4b94-ab5d-02a935aea9ca"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Custom Measures",
+            "mode": "import",
+            "source": {
+              "expression": "Row(\"Column\", BLANK())",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_c4b11e85-e510-4754-9eb4-25b376430ce5",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "9a9fe7ec-4cab-4ae1-b1ed-df7deba7ffd2",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "be09ccb0-a7ae-499b-8c0d-c5f1a44bbc07",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "451a4f2a-8105-4c1f-a5c4-2b21d6f9815b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "5d673f49-bfa0-491b-bb5a-1b5f8e276c53",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "d65182c3-225e-4558-a74c-dffacd3d7b4f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "ff5e2faa-a0c3-480e-bdf7-4643c476ec4c",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "de15a01b-64a2-40ac-825f-258e59c4864a",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "e58aad78-b76a-4ef6-887c-bb41dc841034",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "2cd9ee3a-3839-4c59-8dd7-c0dba60f1896",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "666cf3fd-8be0-4f05-b23b-8219b82b1958",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "22de1a40-2e35-41ec-8bca-4cc03c921189",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "c1722f48-fc12-4c73-a9ec-a5b662a933db"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "be391a99-0bb8-4d2d-9290-8e4a186b6f22",
+        "partitions": [
+          {
+            "name": "LocalDateTable_c4b11e85-e510-4754-9eb4-25b376430ce5",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Rolling Date Calendar'[Date])), 1, 1), Date(Year(MAX('Rolling Date Calendar'[Date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}

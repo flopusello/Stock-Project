@@ -35,6 +35,20 @@ def load_json_from_raw(filename):
     return data
 
 
+def emptying_raw():
+    # Compute the project root (two levels up from current file, e.g., file_manager.py)
+    project_root = Path(__file__).resolve().parents[1]
+
+    # Construct full path to data/raw/
+    raw_data_path = project_root / "data" / "raw"
+
+    # Remove all files in the raw directory
+    for file in raw_data_path.glob("*"):
+        file.unlink()
+
+    print("Emptied raw data directory:", raw_data_path)
+
+
 def save_json_to_processed(data, filename):
     # Compute the project root (two levels up from current file, e.g., file_manager.py)
     project_root = Path(__file__).resolve().parents[1]
@@ -50,6 +64,20 @@ def save_json_to_processed(data, filename):
         json.dump(data, f, ensure_ascii=False, indent=4)
 
     print("Saving processed data to:", processed_data_path)
+
+
+def emptying_processed():
+    # Compute the project root (two levels up from current file, e.g., file_manager.py)
+    project_root = Path(__file__).resolve().parents[1]
+
+    # Construct full path to data/processed/
+    processed_data_path = project_root / "data" / "processed"
+
+    # Remove all files in the processed directory
+    for file in processed_data_path.glob("*"):
+        file.unlink()
+
+    print("Emptied processed data directory:", processed_data_path)
 
 
 def load_json_from_processed(filename):

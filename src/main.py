@@ -1,8 +1,13 @@
 from api.connectors import AlphaVantageClient
 from processing.transformers import data_prep
 from datetime import datetime
-from file_management import save_json_to_raw, load_json_from_processed
-from storage.mongo import insert_many
+from file_management import (
+    save_json_to_raw,
+    load_json_from_processed,
+    emptying_raw,
+    emptying_processed,
+)
+from storage.mongo import insert_many, clean_collection
 
 # Fill here the symbols of the stocks you want to track (limit to 25)
 
@@ -29,16 +34,19 @@ list = [
     "UNH",  # UnitedHealth Group
 ]
 
-# Initialization
+# Emptying Raw Data Folder
 
-rows = []
+emptying_raw()
 
 # Data Fetch
 
 client = AlphaVantageClient()
 
 for item in list:
+    rows = []
     data = client.extract_daily(item)
+    if not data:
+        raise ValueError(f"Stock unavailable on Alpha Vantage: {item}")
     ts = data["Time Series (Daily)"]
     for date, metrics in ts.items():
         row = {
@@ -54,12 +62,18 @@ for item in list:
     filename = f"{item}_{datetime.now().strftime('%Y%m%d')}_raw.json"
     save_json_to_raw(rows, filename)
 
+# Emptying Processed Data Folder
+
+emptying_processed()
+
 # Processing of the data
 
 for symbols in list:
     data_prep(symbols)
 
 # Data Storage in MongoDB
+
+clean_collection("stock_app", "stock_ts")
 
 for symbols in list:
     data = load_json_from_processed(

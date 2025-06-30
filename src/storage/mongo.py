@@ -24,3 +24,15 @@ def insert_many(db_name: str, collection_name: str, data):
         )
     except OperationFailure as e:
         print(f"Error inserting data: {e}")
+
+
+def clean_collection(db_name: str, collection_name: str):
+    try:
+        db = local_client[db_name]
+        collection = db[collection_name]
+        result = collection.delete_many({})
+        print(
+            f"Deleted {result.deleted_count} documents from {collection_name} collection."
+        )
+    except OperationFailure as e:
+        print(f"Error cleaning collection: {e}")
