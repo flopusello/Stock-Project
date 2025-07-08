@@ -16,7 +16,6 @@ This solution aims to provide financial insights on 30 days historical stock dat
 
 Stock Project/
 │
-├── data/ # Temp Data (ignored)
 ├── src/ # Source code
 ├── dashboard/ # Dashboard files
 ├── documentation/ # Users & Developpers Documentation

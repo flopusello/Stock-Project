@@ -34,53 +34,59 @@ list = [
     "UNH",  # UnitedHealth Group
 ]
 
-# Emptying Raw Data Folder
 
-emptying_raw()
+def main():
+    # Emptying Raw Data Folder
 
-# Data Fetch
+    emptying_raw()
 
-client = AlphaVantageClient()
+    # Data Fetch
 
-for item in list:
-    rows = []
-    data = client.extract_daily(item)
-    if not data:
-        raise ValueError(f"Stock unavailable on Alpha Vantage: {item}")
-    ts = data["Time Series (Daily)"]
-    for date, metrics in ts.items():
-        row = {
-            "symbol": item,
-            "date": date,
-            "open": float(metrics["1. open"]),
-            "high": float(metrics["2. high"]),
-            "low": float(metrics["3. low"]),
-            "close": float(metrics["4. close"]),
-            "volume": int(metrics["5. volume"]),
-        }
-        rows.append(row)
-    filename = f"{item}_{datetime.now().strftime('%Y%m%d')}_raw.json"
-    save_json_to_raw(rows, filename)
+    client = AlphaVantageClient()
 
-# Emptying Processed Data Folder
+    for item in list:
+        rows = []
+        data = client.extract_daily(item)
+        if not data:
+            raise ValueError(f"Stock unavailable on Alpha Vantage: {item}")
+        ts = data["Time Series (Daily)"]
+        for date, metrics in ts.items():
+            row = {
+                "symbol": item,
+                "date": date,
+                "open": float(metrics["1. open"]),
+                "high": float(metrics["2. high"]),
+                "low": float(metrics["3. low"]),
+                "close": float(metrics["4. close"]),
+                "volume": int(metrics["5. volume"]),
+            }
+            rows.append(row)
+        filename = f"{item}_{datetime.now().strftime('%Y%m%d')}_raw.json"
+        save_json_to_raw(rows, filename)
 
-emptying_processed()
+    # Emptying Processed Data Folder
 
-# Processing of the data
+    emptying_processed()
 
-for symbols in list:
-    data_prep(symbols)
+    # Processing of the data
 
-# Data Storage in MongoDB
+    for symbols in list:
+        data_prep(symbols)
 
-clean_collection("stock_app", "stock_ts")
+    # Data Storage in MongoDB
 
-for symbols in list:
-    data = load_json_from_processed(
-        f"{symbols}_{datetime.now().strftime('%Y%m%d')}_processed.json"
-    )
-    for row in data:
-        row["date"] = datetime.strptime(row["date"], "%Y-%m-%d")
-    insert_many("stock_app", "stock_ts", data)
+    clean_collection("stock_app", "stock_ts")
 
-# End of the main script
+    for symbols in list:
+        data = load_json_from_processed(
+            f"{symbols}_{datetime.now().strftime('%Y%m%d')}_processed.json"
+        )
+        for row in data:
+            row["date"] = datetime.strptime(row["date"], "%Y-%m-%d")
+        insert_many("stock_app", "stock_ts", data)
+
+    # End of the main script
+
+
+if __name__ == "__main__":
+    main()

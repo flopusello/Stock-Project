@@ -61,8 +61,8 @@ def data_prep(symbol):
     df["OBV"] = (np.sign(df["close"].diff()) * df["volume"]).fillna(0).cumsum()
 
     df["Volume Spike(20)"] = (
-        df["volume"] > df["volume"].rolling(window=20).mean() * 1.5
-    ).astype(int)
+        df["volume"] / df["volume"].rolling(window=20).mean()
+    ).astype(float)
 
     # Save Processed Data
 

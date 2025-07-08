@@ -485,16 +485,6 @@
                     "ema(12)_last_date": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "EMA(12)": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -511,9 +501,289 @@
                     "ema(26)_last_date": {
                       "State": "Generated"
                     }
+                  }
+                ]
+              },
+              "custom_measure.last_closing_price": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "last_closing_price"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "last closing price": {
+                      "State": "Generated"
+                    }
                   },
                   {
-                    "EMA(26)": {
+                    "last_closing_price": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "price": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "closing price": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "end closing price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "final closing price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "closing closing price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "concluding closing price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "finishing closing price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "former closing price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "latest closing price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "latter closing price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "past closing price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "remaining closing price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "Closing": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "custom_measure.last_opening_price": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "last_opening_price"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "last opening price": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "last_opening_price": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "price": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "opening price": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "end opening price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "final opening price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "closing opening price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "concluding opening price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "finishing opening price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "former opening price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "latest opening price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "latter opening price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "past opening price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "remaining opening price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "Opening": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -746,6 +1016,275 @@
                   }
                 ]
               },
+              "custom_measure.normalized_atr_last_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "normalized_atr_last_date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "normalized atr last date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "normalized_atr_last_date": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "normalized atr last moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "normalized atr last period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.748
+                    }
+                  },
+                  {
+                    "normalized atr end date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "normalized atr final date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "normalized atr closing date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "normalized atr concluding date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "normalized atr finishing date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "normalized atr former date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "normalized atr latest date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "normalized atr latter date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
+              "custom_measure.obv_d_1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "obv_d-1"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "obv d 1": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "obv_d-1": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "custom_measure.obv_last_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "obv_last_date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "obv last date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "obv_last_date": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "obv last moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "obv last period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "obv end date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "obv final date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "obv closing date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "obv concluding date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "obv finishing date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "obv former date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "obv latest date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "obv latter date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
               "custom_measure.rsi_last_date": {
                 "Definition": {
                   "Binding": {
@@ -923,6 +1462,38 @@
                       },
                       "State": "Suggested",
                       "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "custom_measure.volume_spike20_last_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "volume_spike(20)_last_date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "volume_spike(20)_last_date": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "custom_measure.vwap14_last_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Custom Measures",
+                    "ConceptualProperty": "vwap(14)_last_date"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "vwap(14)_last_date": {
+                      "State": "Generated"
                     }
                   }
                 ]
@@ -2795,6 +3366,39 @@
                 },
                 "State": "Generated"
               },
+              "custom_measure_has_normalized_atr_last_date": {
+                "Binding": {
+                  "ConceptualEntity": "Custom Measures"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.normalized_atr_last_date"
+                      },
+                      "Subject": {
+                        "Role": "custom_measure"
+                      }
+                    },
+                    "ID": "custom_measures_have_normalized_atr_last_date",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure": {
+                    "Target": {
+                      "Entity": "custom_measure"
+                    }
+                  },
+                  "custom_measure.normalized_atr_last_date": {
+                    "Target": {
+                      "Entity": "custom_measure.normalized_atr_last_date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "custom_measure_has_rsi_signal": {
                 "Binding": {
                   "ConceptualEntity": "Custom Measures"
@@ -2823,6 +3427,39 @@
                   "custom_measure.rsi_signal": {
                     "Target": {
                       "Entity": "custom_measure.rsi_signal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "custom_measure_has_vwap14_last_date": {
+                "Binding": {
+                  "ConceptualEntity": "Custom Measures"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.vwap14_last_date"
+                      },
+                      "Subject": {
+                        "Role": "custom_measure"
+                      }
+                    },
+                    "ID": "custom_measures_have_vwap14_last_date",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure": {
+                    "Target": {
+                      "Entity": "custom_measure"
+                    }
+                  },
+                  "custom_measure.vwap14_last_date": {
+                    "Target": {
+                      "Entity": "custom_measure.vwap14_last_date"
                     }
                   }
                 },
@@ -3422,6 +4059,126 @@
                 },
                 "State": "Generated"
               },
+              "stock_ts_has_custom_measure_last_closing_price": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.last_closing_price"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_last_closing_price",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "custom_measure.last_closing_price"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "last_closing_price_indicates_how_expensive_stock_tses_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure.last_closing_price": {
+                    "Target": {
+                      "Entity": "custom_measure.last_closing_price"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_custom_measure_last_opening_price": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.last_opening_price"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_last_opening_price",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "custom_measure.last_opening_price"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "last_opening_price_indicates_how_expensive_stock_tses_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure.last_opening_price": {
+                    "Target": {
+                      "Entity": "custom_measure.last_opening_price"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "stock_ts_has_custom_measure_macd1226_last_date": {
                 "Binding": {
                   "ConceptualEntity": "stock_ts"
@@ -3488,6 +4245,72 @@
                 },
                 "State": "Generated"
               },
+              "stock_ts_has_custom_measure_obv_d_1": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.obv_d_1"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_obv_d_1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure.obv_d_1": {
+                    "Target": {
+                      "Entity": "custom_measure.obv_d_1"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_custom_measure_obv_last_date": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.obv_last_date"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_obv_last_date",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure.obv_last_date": {
+                    "Target": {
+                      "Entity": "custom_measure.obv_last_date"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "stock_ts_has_custom_measure_rsi_last_date": {
                 "Binding": {
                   "ConceptualEntity": "stock_ts"
@@ -3544,6 +4367,39 @@
                   "custom_measure.signal9_last_date": {
                     "Target": {
                       "Entity": "custom_measure.signal9_last_date"
+                    }
+                  },
+                  "stock_ts": {
+                    "Target": {
+                      "Entity": "stock_ts"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "stock_ts_has_custom_measure_volume_spike20_last_date": {
+                "Binding": {
+                  "ConceptualEntity": "stock_ts"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "custom_measure.volume_spike20_last_date"
+                      },
+                      "Subject": {
+                        "Role": "stock_ts"
+                      }
+                    },
+                    "ID": "stock_tses_have_volume_spike20_last_date",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "custom_measure.volume_spike20_last_date": {
+                    "Target": {
+                      "Entity": "custom_measure.volume_spike20_last_date"
                     }
                   },
                   "stock_ts": {
@@ -4910,8 +5766,8 @@
                 "value": "Automatic"
               }
             ],
-            "dataType": "int64",
-            "formatString": "0",
+            "dataType": "double",
+            "formatString": "0.00",
             "lineageTag": "92272126-ff61-46e8-b293-7a254475bc74",
             "sourceColumn": "Volume Spike(20)",
             "summarizeBy": "sum"
@@ -4946,7 +5802,7 @@
                 "    CData_Database = Source{[Name=\"CData\",Kind=\"Database\"]}[Data],",
                 "    stock_app_Schema = CData_Database{[Name=\"stock_app\",Kind=\"Schema\"]}[Data],",
                 "    stock_ts_Table = stock_app_Schema{[Name=\"stock_ts\",Kind=\"Table\"]}[Data],",
-                "    #\"Changed Type\" = Table.TransformColumnTypes(stock_ts_Table,{{\"date\", type date}})",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(stock_ts_Table,{{\"date\", type date}, {\"Volume Spike(20)\", type number}})",
                 "in",
                 "    #\"Changed Type\""
               ],
@@ -5417,9 +6273,9 @@
               "SWITCH(",
               "    TRUE(),",
               "    [macd(12,26)_last_date] > [signal(9)_last_date],",
-              "    \"Buy Signal\",",
+              "    \"bullish\",",
               "    [macd(12,26)_last_date] < [signal(9)_last_date],",
-              "    \"Sell Signal\",",
+              "    \"bearish\",",
               "    BLANK()",
               ")"
             ],
@@ -5451,7 +6307,13 @@
             "expression": [
               "",
               "VAR diff = [macd(12,26)_last_date] - [signal(9)_last_date]",
-              "RETURN IF(diff > 0, diff, 0)"
+              "VAR _measure = IF(diff > 0, diff, 0)",
+              "",
+              "RETURN IF(",
+              "    ISFILTERED(stock_ts[symbol]),",
+              "    _measure,",
+              "    \"No Symbol Selected\"",
+              ")"
             ],
             "lineageTag": "829f1039-3446-47f4-b386-f4e2522e38b8"
           },
@@ -5466,7 +6328,13 @@
             "expression": [
               "",
               "VAR diff = [signal(9)_last_date] - [macd(12,26)_last_date]",
-              "RETURN IF(diff > 0, diff, 0)"
+              "VAR _measure = IF(diff > 0, diff, 0)",
+              "",
+              "RETURN IF(",
+              "    ISFILTERED(stock_ts[symbol]),",
+              "    _measure,",
+              "    \"No Symbol Selected\"",
+              ")"
             ],
             "lineageTag": "703cce1b-11b4-4b34-ad92-22a7843cff55"
           },
@@ -5484,9 +6352,17 @@
           {
             "name": "normalized_atr_last_date",
             "expression": [
-              "CALCULATE(",
+              "",
+              "",
+              "VAR _measure = CALCULATE(",
               "    MIN(stock_ts[ATR(14)]) / MIN(stock_ts[close]),",
               "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")",
+              "",
+              "RETURN IF(",
+              "    ISFILTERED(stock_ts[symbol]),",
+              "    _measure,",
+              "    \"No Symbol Picked\"",
               ")"
             ],
             "formatString": "0.00%;-0.00%;0.00%",
@@ -5523,6 +6399,76 @@
               ")"
             ],
             "lineageTag": "72c00bec-0490-4b94-ab5d-02a935aea9ca"
+          },
+          {
+            "name": "vwap(14)_last_date",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "",
+              "VAR _measure = CALCULATE(",
+              "    MIN(stock_ts[VWAP(14)]),",
+              "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")",
+              "",
+              "RETURN",
+              "    IF(",
+              "        ISFILTERED(stock_ts[symbol]),",
+              "        _measure,",
+              "        \"No Symbol Picked\"",
+              "    )"
+            ],
+            "lineageTag": "829cef3c-1199-47a2-a914-55ea8e39da02"
+          },
+          {
+            "name": "last_closing_price",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    MIN(stock_ts[close]),",
+              "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")"
+            ],
+            "lineageTag": "4000e0f2-7478-413b-93d4-e78a92f3405f"
+          },
+          {
+            "name": "volume_spike(20)_last_date",
+            "expression": [
+              "CALCULATE(",
+              "    MIN(stock_ts[Volume Spike(20)]),",
+              "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")"
+            ],
+            "formatString": "0.00",
+            "lineageTag": "0646be5a-2169-4a27-a2c0-830813e3d863"
+          },
+          {
+            "name": "last_opening_price",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    MIN(stock_ts[open]),",
+              "    LASTDATE('Rolling Date Calendar'[Date])",
+              ")"
+            ],
+            "lineageTag": "cbbaa692-43b0-4ceb-89f4-1c7220dc3302"
           }
         ],
         "partitions": [
