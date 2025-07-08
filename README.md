@@ -25,4 +25,5 @@ Stock Project/
 ## 🙋‍♀️ Author & Contact
 
 Created by Florian PUSELLO
-🔗 [text](https://github.com/flopusello)
+🔗 [GitHub](https://github.com/flopusello)
+🔗 [LinkedIn](https://www.linkedin.com/in/florian-pusello)
