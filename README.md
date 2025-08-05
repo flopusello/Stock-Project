@@ -18,7 +18,7 @@ Stock Project/
 │
 ├── src/ # Source code
 ├── dashboard/ # Dashboard files
-├── documentation/ # Users & Developpers Documentation
+├── documentation/ # Dashboard & Pipeline Documentation
 ├── requirements.txt # Python dependencies
 └── README.md # Overview
 
